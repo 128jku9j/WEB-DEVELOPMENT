@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trello Board</title>
+    <link rel="stylesheet" href="external/reset.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/trello-dashboard.css">
+    <link rel="stylesheet" href="css/trello-board.css">
+    <!--
+        Downloaded from https://fontawesome.com/how-to-use/on-the-web/setup/hosting-font-awesome-yourself
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+<body>
+<nav class="navbar">
+    <ul class="menu">
+        <li class="pointer">
+            <i class="home fas fa-home"></i>
+        </li>
+        <li class="pointer">
+            <i class="boards fas fa-th-list"></i>
+            Boards
+        </li>
+        <li class="menu-input">
+            <input type="text" />
+        </li>
+    </ul>
+    <div class="app-title">
+        Tralala
+    </div>
+    <div class="actions">
+                <span class="pointer">
+                    <i class="fas fa-plus" id="add-board"></i>
+                </span>
+        <span class="pointer">
+                    <i class="fas fa-user" id="profile-image"></i>
+                </span>
+    </div>
+</nav>
+<div class="board-container"></div>
+
+<script src="js/trello-dashboard.js"></script>
+</body>
+</html>

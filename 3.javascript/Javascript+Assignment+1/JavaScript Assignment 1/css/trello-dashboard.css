@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* padding-top: 30px; */
+    /* margin: 20px 0; */
+    background-image: url( "../images/bg-rain-drops-on-window-shield.jpg" );
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 8px 20px;
+    background-color: rgba( 64, 144, 172, 0.65 );
+    color: white;
+}
+
+.navbar .pointer:hover {
+    opacity: 0.75;
+}
+
+.navbar > * {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar .menu > *, .navbar .actions > * {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 2px;
+    margin: 0px 4px;
+    background-color: rgba( 64, 144, 172, 1 );
+}
+
+.navbar .menu {
+    justify-content: flex-start;
+}
+
+.navbar .menu-input {
+    background-color: transparent;
+    padding: 0;
+}
+
+.navbar .menu-input input {
+    width: 120px;
+    padding: 4px 0.5em;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    background-color: rgba( 64, 144, 172, 1 );
+    color: white;
+    font-size: 1.15em;
+    line-height: 1.4;
+    color: black;
+}
+
+.navbar .menu-input input:focus {
+    background-color: white;
+}
+
+.navbar .app-title {
+    justify-content: space-around;
+    font-family: "Comic Sans", "Comic Sans MS", cursive;
+    font-size: 1.3em;
+}
+
+.navbar .actions {
+    justify-content: flex-end;
+}
+
+.board-container {
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.board-menu {
+    position: fixed;
+    top: 50px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 20px;
+    color: black;
+    background-color: rgba( 128, 128, 128, 0.3 );
+    color: white;
+}
