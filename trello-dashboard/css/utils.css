@@ -1,0 +1,46 @@
+.my-3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.full-width-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    font-size: 1em;
+    resize: none;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    font-size: 1.2em;
+    color: #aaa;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.btn-inline {
+    display: inline-block;
+    width: auto;
+}
+
+.btn-primary {
+    background-color: olive;
+    color: white;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+
+.pointer:hover {
+    opacity: 0.7;
+}
+
+.pointer:active {
+    outline: none;
+}
